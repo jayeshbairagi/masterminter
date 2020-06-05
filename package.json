@@ -1,0 +1,38 @@
+{
+  "name": "master-minter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "truffle compile",
+    "console": "truffle console",
+    "lint:sol": "solium -d .",
+    "lint:sol:fix": "solium -d . --fix",
+    "migrate": "truffle migrate --reset",
+    "remixd": "remixd -s contracts --remix-ide https://remix.ethereum.org",
+    "test": "./test.sh"
+  },
+  "author": "Jayesh Bairagi",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "ganache-cli": "^6.9.1",
+    "remixd": "^0.1.8-alpha.16",
+    "solhint": "^2.3.1",
+    "solium": "^1.2.5",
+    "standard": "^14.3.3",
+    "truffle": "^5.1.20"
+  },
+  "standard": {
+    "envs": [
+      "mocha"
+    ]
+  }
+}

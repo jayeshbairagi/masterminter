@@ -1,0 +1,19 @@
+{
+  "extends": "default",
+  "rules": {
+    "indent": [
+      "error",
+      4
+    ],
+    "quotes": [
+      "error",
+      "double"
+    ],
+    "max-line-length": [
+      "error",
+      120
+    ],
+    "compiler-gt-0_4": false,
+    "no-empty-blocks": false
+  }
+}
